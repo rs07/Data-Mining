@@ -1,0 +1,54 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.SymmetricalUncertAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 10
+Relation:     adult-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-10
+Instances:    704
+Attributes:   21
+              A1_Score
+              A2_Score
+              A3_Score
+              A4_Score
+              A5_Score
+              A6_Score
+              A7_Score
+              A8_Score
+              A9_Score
+              A10_Score
+              age
+              gender
+              ethnicity
+              jundice
+              austim
+              contry_of_res
+              used_app_before
+              result
+              age_desc
+              relation
+              Class/ASD
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 Class/ASD):
+	Symmetrical Uncertainty Ranking Filter
+
+Ranked attributes:
+ 1        18 result
+ 0.3302    9 A9_Score
+ 0.2835    6 A6_Score
+ 0.2614    5 A5_Score
+ 0.1904    4 A4_Score
+ 0.1606    3 A3_Score
+ 0.133    10 A10_Score
+ 0.0982    7 A7_Score
+ 0.0924    1 A1_Score
+ 0.0822   16 contry_of_res
+
+Selected attributes: 18,9,6,5,4,3,10,7,1,16 : 10
+

@@ -1,0 +1,64 @@
+1st Feature Selection Algorithm
+
+
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     adult-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-10
+Instances:    704
+Attributes:   21
+              A1_Score
+              A2_Score
+              A3_Score
+              A4_Score
+              A5_Score
+              A6_Score
+              A7_Score
+              A8_Score
+              A9_Score
+              A10_Score
+              age
+              gender
+              ethnicity
+              jundice
+              austim
+              contry_of_res
+              used_app_before
+              result
+              age_desc
+              relation
+              Class/ASD
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 110
+	Merit of best subset found:    1    
+
+Attribute Subset Evaluator (supervised, Class (nominal): 21 Class/ASD):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,2,3,4,5,6,7,8,9,10,16,18 : 12
+                     A1_Score
+                     A2_Score
+                     A3_Score
+                     A4_Score
+                     A5_Score
+                     A6_Score
+                     A7_Score
+                     A8_Score
+                     A9_Score
+                     A10_Score
+                     contry_of_res
+                     result
+
